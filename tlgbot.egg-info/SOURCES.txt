@@ -1,0 +1,10 @@
+README.md
+setup.py
+tlgbot/__init__.py
+tlgbot/rest.py
+tlgbot/tlgbot.py
+tlgbot.egg-info/PKG-INFO
+tlgbot.egg-info/SOURCES.txt
+tlgbot.egg-info/dependency_links.txt
+tlgbot.egg-info/requires.txt
+tlgbot.egg-info/top_level.txt
