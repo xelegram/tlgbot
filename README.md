@@ -63,6 +63,30 @@ reply_message = 'Thanks for your message!'
 bot.reply_last_msg(chat_id, reply_message)
 ```
 
+## EXAMPLE PRODUCTION CODE
+```python
+from tlgbot import TLGBot
+
+# Define tu token
+token = 'Your_Bot_Token'
+
+# Obtén el último chat ID utilizando la función last_id
+chat_id = TLGBot.last_id(token)
+
+if chat_id is not None:
+    print(f'Último chat ID: {chat_id}')
+
+    # Define un mensaje de respuesta
+    response_message = 'Hello test'
+
+    # Envia el mensaje al último chat ID
+    TLGBot.send_message(TLGBot(token), chat_id, response_message)
+    print('Mensaje enviado exitosamente.')
+else:
+    print('No se pudo obtener el chat ID.')
+
+```
+
 ## License
 This library is available under the MIT license.
 
