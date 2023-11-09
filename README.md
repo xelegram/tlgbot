@@ -10,3 +10,15 @@ You can install TLGBot using pip:
 
 ```bash
 pip install tlgbot
+```
+##Getting Started
+1. Create a Telegram bot and obtain the API token. You can do this by talking to the BotFather on Telegram.
+
+2. Import the TLGBot class and create an instance with your API token.
+
+```python
+from tlgbot import TLGBot
+
+# Replace 'YOUR_API_TOKEN' with your actual bot API token
+bot = TLGBot('YOUR_API_TOKEN')
+```
